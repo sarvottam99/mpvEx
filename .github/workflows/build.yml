@@ -62,3 +62,4 @@ jobs:
           name: app-standard-x86_64-release-unsigned-${{ env.SHORT_SHA }}
           path: app/build/outputs/apk/standard/release/app-standard-x86_64-release-unsigned.apk
           if-no-files-found: warn
+          
